@@ -34,7 +34,7 @@ $full_url = $config['base_url'] . $url; // Url with the query on it.
 $base_url = $config['base_url'] . $url_parts['path']; // Url without the query.
 
 /**
- * Code below from http://stackoverflow.com/questions/12916539/simplest-php-example-retrieving-user-timeline-with-twitter-api-version-1-1 by Rivers
+ * Code below from https://stackoverflow.com/questions/12916539/simplest-php-example-retrieving-user-timeline-with-twitter-api-version-1-1 by Rivers
  * with a few modfications by Mike Rogers to support variables in the URL nicely
  */
 

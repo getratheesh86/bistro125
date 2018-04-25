@@ -480,7 +480,7 @@
                                 navigator.geolocation.getCurrentPosition(function(position) {
                                     directionButton.each(function(){
                                         $(this).attr("href", "");
-                                        $(this).attr("href",'http://maps.google.com/maps?saddr='+position.coords.latitude+","+position.coords.longitude+',&daddr='+markerPosition.lat()+","+markerPosition.lng());
+                                        $(this).attr("href",'https://maps.google.com/maps?saddr='+position.coords.latitude+","+position.coords.longitude+',&daddr='+markerPosition.lat()+","+markerPosition.lng());
                                     });
                                 }, function() {
                                     console.log("Error: The Geolocation service failed.")
@@ -492,7 +492,7 @@
                         }else{
                             directionButton.each(function(){
                                 $(this).attr("href", "");
-                                $(this).attr("href",'http://maps.google.com/maps?saddr='+directionsLat+","+directionsLng+',&daddr='+markerPosition.lat()+","+markerPosition.lng());
+                                $(this).attr("href",'https://maps.google.com/maps?saddr='+directionsLat+","+directionsLng+',&daddr='+markerPosition.lat()+","+markerPosition.lng());
                             });
                             if(makeVis == true ){
                                 directionButton.removeClass('make-hidden')

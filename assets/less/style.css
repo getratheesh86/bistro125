@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "../js/jQueryShopLocator/src/style/css/pluginStyle.css";
-@import url(http://fonts.googleapis.com/css?family=Gravitas+One|Fjalla+One|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Gravitas+One|Fjalla+One|Raleway);
 @import "../plugins/owl/owl.carousel.css";
 @import "../plugins/owl/owl.theme.css";
 @import "../plugins/owl/owl.transitions.css";
@@ -30,8 +30,8 @@ Last change:	24 February 2015
 
 -------------------------------------------------------------------*/
 /*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
+Animate.css - https://daneden.me/animate
+Licensed under the MIT license - https://opensource.org/licenses/MIT
 
 Copyright (c) 2014 Daniel Eden
 */
@@ -3459,7 +3459,7 @@ ul.ct-defaultColorList li {
   color: #333333!important;
 }
 /*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.2.0 by @davegandy - https://fontawesome.io - @fontawesome
  *  License - https://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
